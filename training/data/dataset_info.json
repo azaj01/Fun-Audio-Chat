@@ -1,0 +1,32 @@
+{
+  "spoken-alpaca-gpt4": {
+    "file_name": "../datasets/spoken-alpaca-gpt4/train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "system": "system",
+      "messages": "messages",
+      "audios": "audio"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "spoken-alpaca-gpt4_1k": {
+    "file_name": "../datasets/spoken-alpaca-gpt4/train_1k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "system": "system",
+      "messages": "messages",
+      "audios": "audio"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }
+}
