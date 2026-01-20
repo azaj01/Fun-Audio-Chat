@@ -203,7 +203,8 @@ npm run dev
 
 推理时使用 [`utils/constant.py`](utils/constant.py) 中的 `FUNCTION_CALLING_PROMPT`。注意：需要将 `{tools_definition}` 占位符替换为适当的工具定义。推理脚本和工具定义格式请参考 [`examples/infer_s2t.py`](examples/infer_s2t.py)。
 
-- **SpeechFCEval**：数据和评测脚本可在 [SpeechFCEval](https://github.com/FunAudioLLM/SpeechFCEval) 获取
+
+- **SpeechFCEval**：数据和评测脚本可在 [SpeechFCEval](https://huggingface.co/datasets/FunAudioLLM/SpeechFCEval) 获取
 - 部分数据和评测脚本来自 [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard/bfcl_eval) 和 [ACEBench](https://github.com/chenchen0103/ACEBench/tree/main/model_eval)。感谢他们的贡献。
 
 ### 5. 语音指令遵循

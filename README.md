@@ -203,7 +203,7 @@ Please refer to the corresponding text in each dataset for `question` and `choic
 
 Use `FUNCTION_CALLING_PROMPT` from [`utils/constant.py`](utils/constant.py) for inference. Note: replace the `{tools_definition}` placeholder with appropriate tool definitions. Refer to [`examples/infer_s2t.py`](examples/infer_s2t.py) for the inference script and tool definition format.
 
-- **SpeechFCEval**: Data and evaluation scripts can be found at [SpeechFCEval](https://github.com/FunAudioLLM/SpeechFCEval)
+- **SpeechFCEval**: Data and evaluation scripts can be found at [SpeechFCEval](https://huggingface.co/datasets/FunAudioLLM/SpeechFCEval)
 - Some data and evaluation scripts are from [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard/bfcl_eval) and [ACEBench](https://github.com/chenchen0103/ACEBench/tree/main/model_eval). We thank them for their contributions.
 
 ### 5. Speech Instruction-Following
